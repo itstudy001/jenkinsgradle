@@ -12,7 +12,7 @@ class CalculatorController {
 
     @RequestMapping("/")
     String health() {
-        return "헬스체크";
+        return "헬스_체크";
     }
 
     @RequestMapping("/sum")
